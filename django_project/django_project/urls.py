@@ -15,7 +15,9 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
+from django.urls import include  # to use urls from blog app
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('', include('blog.urls')),  # without 'blog/' site will wait on plain port 8000
 ]
