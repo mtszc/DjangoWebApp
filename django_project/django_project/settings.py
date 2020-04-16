@@ -123,3 +123,6 @@ USE_TZ = True
 STATIC_URL = '/static/'
 
 CRISPY_TEMPLATE_PACK = 'bootstrap4'  # by default crispy use bootstrap 2
+
+LOGIN_REDIRECT_URL = 'blog-home'  # by default request URL is accounts/profile/
+LOGIN_URL = 'login'  # when logged out and access profile it redirect user to login route 
