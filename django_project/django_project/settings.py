@@ -129,3 +129,12 @@ CRISPY_TEMPLATE_PACK = 'bootstrap4'  # by default crispy use bootstrap 2
 
 LOGIN_REDIRECT_URL = 'blog-home'  # by default request URL is accounts/profile/
 LOGIN_URL = 'login'  # when logged out and access profile it redirect user to login route 
+
+
+# Setup for enable email sending
+EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+EMAIL_HOST = 'smtp.gmail.com'
+EMAIL_PORT = 587
+EMAIL_USE_TLS = True
+EMAIL_HOST_USER = "devmat001@gmail.com"  # os.environ.get('EMAIL_USER')
+EMAIL_HOST_PASSWORD = "test3562"  # os.environ.get('EMAIL_PASS')
