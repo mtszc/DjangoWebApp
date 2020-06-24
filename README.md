@@ -15,10 +15,8 @@ This app is recreated from Corey Shafer tut (https://www.youtube.com/watch?v=Uml
 * Django 
 * HTML
 * CSS
-* JS
 * SQL Alchemy
 * Linux
-* Linode (server provider)
 
 ## Features
 List of features ready and TODOs for future development
@@ -29,9 +27,9 @@ Ready:
 * ...
 
 To-do list:
-* ...
-* ...
-* ...
+* deploy
+* unit-tests
+* add functionalities (i.e. serch bar)
 
 ## Status
 Project is: _in progress_
